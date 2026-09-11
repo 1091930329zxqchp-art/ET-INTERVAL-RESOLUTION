@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #fdfaf3;
+  --ink: #1a1a1a;
+  --accent: #d44c4c;
+  --ink-faint: rgba(26, 26, 26, 0.12);
+  --staff-line: rgba(26, 26, 26, 0.08);
+}
+
+body {
+  background-color: var(--bg);
+  background-image: 
+    radial-gradient(var(--ink-faint) 0.5px, transparent 0.5px),
+    linear-gradient(to bottom, transparent 27px, var(--staff-line) 27px, var(--staff-line) 28px, transparent 28px);
+  background-size: 40px 40px, 100% 28px;
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', Georgia, serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--accent);
+  color: #ffffff;
+}
+
+.font-serif-manuscript {
+  font-family: 'Cormorant Garamond', Georgia, serif;
+}
+
+.font-handwritten {
+  font-family: 'Gaegu', cursive;
+}
+
+.font-mono-ledger {
+  font-family: 'Space Mono', monospace;
+}
+

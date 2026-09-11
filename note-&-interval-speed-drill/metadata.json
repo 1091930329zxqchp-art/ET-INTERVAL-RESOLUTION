@@ -1,0 +1,6 @@
+{
+  "name": "Note & Interval Speed Drill",
+  "description": "Ear Training Speed Drill - Manuscript Edition. Classical music manuscript drills for notes, keys, intervals, and resolution pairs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
